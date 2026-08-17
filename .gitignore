@@ -1,0 +1,55 @@
+# Backend - Laravel
+backend/.env
+backend/.env.local
+backend/.env.*.local
+backend/vendor/
+backend/node_modules/
+backend/storage/logs/*
+backend/storage/app/public/*
+backend/bootstrap/cache/*
+backend/public/storage
+backend/.DS_Store
+backend/Thumbs.db
+backend/*.lock
+backend/.idea/
+backend/.vscode/
+backend/*.swp
+backend/*.swo
+backend/*~
+
+# Frontend - Vue
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+frontend/.DS_Store
+frontend/Thumbs.db
+frontend/.idea/
+frontend/.vscode/
+frontend/*.swp
+frontend/*.swo
+frontend/*~
+frontend/coverage/
+
+# Docker & Development
+docker-compose.override.yml
+.env.docker
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Misc
+*.log
+.cache/
+temp/
+tmp/
